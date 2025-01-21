@@ -1,0 +1,98 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #2c3e50; /* Dark gray for text */
+    background-color: #ecf0f1; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(45deg, #6a11cb, #2575fc); /* Gradient background */
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow */
+}
+
+nav {
+    margin-top: 0.5rem;
+}
+
+nav a {
+    color: #f1c40f; /* Vibrant yellow for links */
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    color: #e74c3c; /* Bright red on hover */
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+/* Main Content Styling */
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: #ffffff; /* White background for contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Softer shadow */
+    border: 2px solid #bdc3c7; /* Subtle border */
+}
+
+main p {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    color: #34495e; /* Deep gray for text */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #34495e; /* Deep gray */
+    color: #ecf0f1; /* Light text color */
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    border-top: 4px solid #6a11cb; /* Accent border */
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+}
